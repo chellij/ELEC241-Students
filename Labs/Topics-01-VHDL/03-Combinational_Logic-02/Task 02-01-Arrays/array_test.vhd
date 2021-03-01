@@ -11,7 +11,7 @@ End entity;
 --data flow method
 architecture arraytest1 of ARRAY_TEST is
 
-type byte is array (7 downto 0) of bit;
+type byte is array (0 to 7) of bit;
 signal X : byte;
 		
 begin
